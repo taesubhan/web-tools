@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script defer="defer" src="./index.js" type="module"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="container">
+        <div class="dropdown">
+            <button id="dropdown-button" class="dropdown-button">Click Me!</button>
+            <div class="dropdown-menu hidden">
+                <div class="option-1 dropdown-menu-option">Edit</div>
+                <div class="option-2 dropdown-menu-option">Copy</div>
+                <div class="option-3 dropdown-menu-option">Delete</div>
+            </div>
+        </div>
+        <div class="dropdown">
+            <button id="dropdown-button" class="dropdown-button">Click Me TOO!</button>
+            <div class="dropdown-menu hidden">
+                <div class="option-1 dropdown-menu-option">Edit2</div>
+                <div class="option-2 dropdown-menu-option">Copy2</div>
+                <div class="option-3 dropdown-menu-option">Delete2</div>
+                <div class="option-3 dropdown-menu-option">Delete2</div>
+                <div class="option-3 dropdown-menu-option">Delete2</div>
+                <div class="option-3 dropdown-menu-option">Delete2</div>
+                <div class="option-3 dropdown-menu-option">Delete2</div>
+            </div>
+        </div>
+        <div class="placeholder">hello</div>
+        <div class="image-carousel">
+            <div class="image-frame">
+                <div class="image-container">
+                    <img src="./images/city_image_1.jpg" alt="city image 1" class="city-image" index="0">
+                    <img src="./images/city_image_2.jpg" alt="city image 2" class="city-image" index="1">
+                    <img src="./images/city_image_3.jpg" alt="city image 3" class="city-image" index="2">
+                    <img src="./images/city_image_4.jpg" alt="city image 4" class="city-image" index="3">
+                    <img src="./images/city_image_5.jpg" alt="city image 5" class="city-image" index="4">
+                    <img src="./images/city_image_6.jpg" alt="city image 6" class="city-image" index="5">
+                </div>
+            </div>
+            <div class="left-image arrow-button">
+                <img src="./images/chevron-left.svg" alt="left-arrow" class="prior-image image-button">
+            </div>
+            <div class="right-image arrow-button">
+                <img src="./images/chevron-right.svg" alt="right-arrow" class="next-image image-button">
+            </div>
+            <div class="image-indicators">
+                <ul class="list-of-image-dots">
+                    <li class="image-dot" index="0"></li>
+                    <li class="image-dot" index="1"></li>
+                    <li class="image-dot" index="2"></li>
+                    <li class="image-dot" index="3"></li>
+                    <li class="image-dot" index="4"></li>
+                    <li class="image-dot" index="5"></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
